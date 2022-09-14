@@ -14,7 +14,7 @@ The code is partially refer to *Adapting User Preference to Online Feedback in M
 - `sklearn`
 
 ## Dataset
-The dataset we used is based on [Yelp](https://www.yelp.com/dataset/) and [LastFM](https://grouplens.org/datasets/hetrec-2011/) which are processed in [EAR WSDM'20](https://dl.acm.org/doi/10.1145/3336191.3371769)
+The dataset we used is based on [Yelp](https://www.yelp.com/dataset/) and [LastFM](https://grouplens.org/datasets/hetrec-2011/) which are processed in [SCPR](https://github.com/farrecall/SCPR)
 
 ## Usage
 * **To train CRIF offline model:**
