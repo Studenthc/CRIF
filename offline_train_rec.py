@@ -101,7 +101,7 @@ def train_one_epoch(epoch_num):
         att_att_loss_float = att_att_loss.cpu().detach().item()
         epoch_att_att_loss_sum += att_att_loss_float
 
-        all_loss = item_loss + att_att_loss
+        all_loss = item_att_loss + item_loss + att_att_loss
         item_att_optimizer.zero_grad()
         all_loss.backward()
         item_att_optimizer.step()
