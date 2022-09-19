@@ -53,6 +53,7 @@ class MyRec(nn.Module):
 
         self.graph_layer_rep = None
         self.current_user = None
+        self.neg_user = None
 
         if self.gpu:
             self.user_embed = self.user_embed.cuda()
