@@ -172,7 +172,7 @@ class ConvHis():
         return candidate_att_item
 
     def get_user_vertor(self):
-        highest_len = len(str(self.item_num))
+        highest_len = len(str(self.user_num))
         div = pow(10, highest_len)
         result = float(self.user) / div
         user_vector = [result] * 4
